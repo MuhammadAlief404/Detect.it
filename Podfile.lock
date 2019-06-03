@@ -1,0 +1,18 @@
+PODS:
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Core (1.7.0)
+
+DEPENDENCIES:
+  - ImageSlideshow (~> 1.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ImageSlideshow
+
+SPEC CHECKSUMS:
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+
+PODFILE CHECKSUM: 790e304893febb0d697137443136d4e090ae658e
+
+COCOAPODS: 1.6.2
