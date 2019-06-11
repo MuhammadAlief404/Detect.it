@@ -5,6 +5,7 @@ target 'Detect.it' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   pod 'ImageSlideshow', '~> 1.6'
+  pod 'GoogleMobileVision/TextDetector'
 
   # Pods for Detect.it
 

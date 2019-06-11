@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Vision
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -53,7 +54,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         mainMenu.append(MainMenu(namaMenu: "Face Detection", gambarMenu: "face_logo"))
         mainMenu.append(MainMenu(namaMenu: "Landmark Detection", gambarMenu: "landmark_logo"))
         mainMenu.append(MainMenu(namaMenu: "Logo Detection", gambarMenu: "logodetect_logo"))
-        mainMenu.append(MainMenu(namaMenu: "Text Detection", gambarMenu: "text_logo"))
+        mainMenu.append(MainMenu(namaMenu: "Barcode Detection", gambarMenu: "text_logo"))
         mainMenu.append(MainMenu(namaMenu: "Face Detection", gambarMenu: "face_logo"))
         mainMenu.append(MainMenu(namaMenu: "Landmark Detection", gambarMenu: "landmark_logo"))
         mainMenu.append(MainMenu(namaMenu: "Logo Detection", gambarMenu: "logodetect_logo"))
